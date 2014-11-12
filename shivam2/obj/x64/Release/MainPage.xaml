@@ -1,0 +1,66 @@
+﻿<Page
+    x:Class="shivam2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:shivam2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Brown"  RenderTransformOrigin="0.531,0.464">
+
+
+        <ListView x:Name="grid" HorizontalAlignment="Left" Margin="10,157,0,0" VerticalAlignment="Top" Width="369" Height="601">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid HorizontalAlignment="Left" Height="94" VerticalAlignment="Top" Width="359" Background="White"  Opacity="0.5" Visibility="Visible">
+                        <TextBlock x:ConnectionId='7' Width="359" Height="94" Text="{Binding Name}"                        Foreground="#FF0B0C0B" Visibility="Visible" >
+
+                        </TextBlock>
+                    </Grid>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+
+        </ListView>
+        <Button x:ConnectionId='1' Content="LOAD SONGS.." HorizontalAlignment="Left" Margin="1167,85,0,0" VerticalAlignment="Top" Height="108" Width="162"                      RenderTransformOrigin="0.507,0.361"/>
+        <TextBlock x:Name="status" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="SONG SUGGESTOR" VerticalAlignment="Top" Height="108" Width="969" FontSize="72" FontWeight="Bold" FontFamily="Matura MT Script Capitals" Foreground="#FFE8E4BD"/>
+        <Slider x:ConnectionId='2' x:Name="timelineslider" HorizontalAlignment="Left" Margin="436,326,0,0" VerticalAlignment="Top" Width="427" Height="44"                         >
+
+        </Slider>
+        <Slider x:ConnectionId='3' x:Name="volumeslider" HorizontalAlignment="Left" Margin="783.91,186.478,0,0" VerticalAlignment="Top" Width="131" Height="45" RenderTransformOrigin="0.453,0.527" UseLayoutRounding="False" d:LayoutRounding="Auto"                               Maximum="1" LargeChange="0.1" SmallChange="0.1" StepFrequency="0.1" >
+            <Slider.RenderTransform>
+                <CompositeTransform Rotation="-90.158"/>
+            </Slider.RenderTransform>
+        </Slider>
+
+        <TextBlock x:Name="timestatus" HorizontalAlignment="Left" Margin="796,312,0,0" TextWrapping="Wrap" Text="{Binding MediaElement.Position, ElementName=player}" VerticalAlignment="Top" Height="28" Width="116" RenderTransformOrigin="0.538,0.517"/>
+        <Button x:ConnectionId='4' x:Name="playbutton" Content="Pause" HorizontalAlignment="Left" Margin="585,202,0,0" VerticalAlignment="Top" Height="87" Width="98"                     />
+
+        <MediaElement x:ConnectionId='5' x:Name="player" HorizontalAlignment="Left" Height="252" Margin="438,123,0,0" VerticalAlignment="Top" Width="426"                                                                                Volume="{Binding Value, Mode=OneWay,ElementName=volumeslider}" AudioCategory="BackgroundCapableMedia" />
+        <Border BorderBrush="White" BorderThickness="4" HorizontalAlignment="Left" Height="252" Margin="436,118,0,0" VerticalAlignment="Top" Width="427"/>
+        <Border BorderBrush="White" BorderThickness="2" HorizontalAlignment="Left" Height="601" Margin="10,157,0,0" VerticalAlignment="Top" Width="375"/>
+        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="108" Margin="1167,85,0,0" VerticalAlignment="Top" Width="162"/>
+        <Border BorderBrush="White" BorderThickness="2" HorizontalAlignment="Left" Height="532" Margin="987,226,0,0" VerticalAlignment="Top" Width="369"/>
+        <ListView x:Name="grid2" HorizontalAlignment="Left" Height="532" Margin="987,226,0,0" VerticalAlignment="Top" Width="369">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Width="369" Height="100" Background="WhiteSmoke" Opacity="0.5">
+                        <TextBlock Width="369" Height="100" Text="{Binding Name}" Foreground="#FF383131" >
+
+                        </TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <TextBlock x:Name="message" HorizontalAlignment="Left" Margin="730,720,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="249"/>
+        <Button x:ConnectionId='6' Content="Load Similar SONGS..." HorizontalAlignment="Left" Margin="493,583,0,0" VerticalAlignment="Top" Width="190"                       />
+        
+
+        
+
+
+    </Grid>
+</Page>
+

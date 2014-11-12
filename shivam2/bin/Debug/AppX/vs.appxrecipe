@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SHIVAM-PC</Machine>
+    <WindowsUser>shivam</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>1DC01E6FFC30E2089234B064EA5A2D812330189B2ED13342A424EDD93DCCE9C6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>20986ShivamGargshya.SONGSUGGESTOR_1.0.0.14_neutral__5exfe3dnn3j4m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>20986ShivamGargshya.SONGSUGGESTOR_5exfe3dnn3j4m!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>20986ShivamGargshya.SONGSUGGESTOR</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=C9D984F8-FA39-4CB6-9F35-EBC36970E04E</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.14</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\shivam\Documents\Visual Studio 2012\Projects\shivam2\shivam2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-03T20:11:45.854</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\shivam\Documents\Visual Studio 2012\Projects\shivam2\shivam2\bin\Debug\shivam2.exe">
+      <PackagePath>shivam2.exe</PackagePath>
+      <Modified>2014-02-03T20:20:23.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shivam\Documents\Visual Studio 2012\Projects\shivam2\shivam2\bin\Debug\shivam2.pdb">
+      <PackagePath>shivam2.pdb</PackagePath>
+      <Modified>2014-02-03T20:20:23.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shivam\Documents\Visual Studio 2012\Projects\shivam2\shivam2\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2013-12-27T14:49:36.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shivam\Documents\Visual Studio 2012\Projects\shivam2\shivam2\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2013-12-27T15:00:04.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shivam\Documents\Visual Studio 2012\Projects\shivam2\shivam2\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2013-12-27T15:30:30.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shivam\Documents\Visual Studio 2012\Projects\shivam2\shivam2\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <Modified>2013-12-27T15:09:38.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shivam\Documents\Visual Studio 2012\Projects\shivam2\shivam2\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <Modified>2013-12-27T14:53:56.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shivam\Documents\Visual Studio 2012\Projects\shivam2\shivam2\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-12-23T13:16:03.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shivam\Documents\Visual Studio 2012\Projects\shivam2\shivam2\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T10:49:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shivam\Documents\Visual Studio 2012\Projects\shivam2\shivam2\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2014-01-12T00:28:17.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shivam\Documents\Visual Studio 2012\Projects\shivam2\shivam2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-02-03T20:11:45.509</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
